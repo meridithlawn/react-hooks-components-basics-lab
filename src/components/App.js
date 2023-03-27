@@ -1,4 +1,5 @@
 import React from "react";
+import About from "./About";
 
 function NavBar() {
   return (
@@ -16,14 +17,19 @@ function Home() {
   );
 }
 
+
+
 {/* write an <About> component here */}
 
 
 function App() {
+  let name = "Meridith"
+  console.log(`${name} loves REACT!`)
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
+      <Home />
+      <About />
       {/* add your <About> component here */}
     </div>
   );
